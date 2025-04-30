@@ -12,9 +12,9 @@ const MainLayout = ({ children }: MainLayoutProps) => {
   const isMobile = useIsMobile();
   
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-gray-50 ">
       <Sidebar />
-      <main className={cn("flex-1", isMobile && "pt-16")}>
+      <main className={cn("flex-1  h-screen overflow-auto", isMobile && "pt-16 ")}>
         {children}
       </main>
     </div>

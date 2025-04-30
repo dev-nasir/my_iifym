@@ -79,6 +79,7 @@ const Dashboard = () => {
   };
 
   return (
+ 
     <MainLayout>
       <Header title="Dashboard" subtitle="Lorem ipsum" />
       
@@ -234,6 +235,7 @@ const Dashboard = () => {
         </div>
       </div>
     </MainLayout>
+
   );
 };
 
